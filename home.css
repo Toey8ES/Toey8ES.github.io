@@ -7,16 +7,17 @@
 nav{
     display: flex;    
     justify-content: space-between;
-    background-color: rgb(167, 30, 247);
+    background-color: grey;
     height: 100px;
     align-items: center;
     padding: 0 5rem;
 
     & .logo {
-        & a{
-            color: whitesmoke;
-            text-decoration: none;
-            font-size: 3rem;
+        & img{
+            width: 90px;
+            height: 80px;
+            background-position: center;
+             background-size: cover;
         }
     }
 
@@ -27,9 +28,9 @@ nav{
             & li {
                 margin: 0 1rem;
                 & a{
-                    color: aquamarine;
+                    color: black;
                     text-decoration: none;
-                     
+            
                 }
 
             }
@@ -47,16 +48,16 @@ nav{
     }
 }
 .banner {
-    height: 700px;
-    background-image: url("https://www.kmutnb.ac.th/getattachment/life-in-the-university/bangkok/g.jpg.aspx");
+    height: 1000px;
+    background-image: url("/image/toystory.jpeg");
     background-position: center;
     background-size: cover;
-    color: silver;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
+  
     & .welcome-img{
         width: 300px;
         height: 400px;
