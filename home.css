@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;    
+    justify-content: space-between;
+    background-color: rgb(167, 30, 247);
+    height: 100px;
+    align-items: center;
+    padding: 0 5rem;
+
+    & .logo {
+        & a{
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 3rem;
+        }
+    }
+
+    & .menu{
+            display: flex;
+            list-style: none;
+
+            & li {
+                margin: 0 1rem;
+                & a{
+                    color: aquamarine;
+                    text-decoration: none;
+                     
+                }
+
+            }
+    }
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 3ram 0;
+
+        & .menu{
+            margin-top: 2rem;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+.banner {
+    height: 700px;
+    background-image: url("https://www.kmutnb.ac.th/getattachment/life-in-the-university/bangkok/g.jpg.aspx");
+    background-position: center;
+    background-size: cover;
+    color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    & .welcome-img{
+        width: 300px;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+}
