@@ -186,6 +186,7 @@ main img {
         background-size: cover;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
+            width: auto;
             height: auto;
             padding-top: 0 3ram ;
         }
@@ -198,6 +199,7 @@ main img {
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
                 height: auto;
+                width: auto;
                 padding-top: 0 3ram ;
             }
     }
