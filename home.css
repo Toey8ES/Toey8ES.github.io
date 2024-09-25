@@ -83,3 +83,21 @@ footer{
         padding-top: 0 3ram ;
     }
 }
+.earthtone {
+    height: 1000px;
+    background-image: url("/image/tone\ me.jpg");
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    & .welcome-img{
+        width: 400px;
+        height: 300px;
+        background-position: left;
+        background-size: left;
+    }
+}
