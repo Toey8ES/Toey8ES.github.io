@@ -97,7 +97,17 @@ main{
 main div {
     padding: 20px;
     font-size: 30px;
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
 }
 main img {
     width: 100%;
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
 }
