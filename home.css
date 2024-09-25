@@ -190,7 +190,7 @@ main img {
             padding-top: 0 3ram ;
         }
 }
-    /* & .siam{
+    & .siam{
             display: flex;
             justify-content: space-evenly;
             text-align: center;
@@ -200,7 +200,7 @@ main img {
                 height: auto;
                 padding-top: 0 3ram ;
             }
-    } */
+    }
     & .scg {
             margin: 0 1rem;
             padding-top: 50px;
@@ -208,6 +208,7 @@ main img {
 
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
+                width: auto;
                 height: auto;
                 padding-top: 0 3ram ;
             }
