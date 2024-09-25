@@ -50,7 +50,7 @@ nav{
     }
 }
 .banner {
-    height: 1000px;
+    height: 565px;
     background-image: url("/image/89.jpg");
     background-position: center;
     background-size: cover;
@@ -87,7 +87,10 @@ footer{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 569px;
     background-image: url(/image/paper.jpg);
+    background-position: center;
+    background-size: cover;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
@@ -96,7 +99,7 @@ main{
 }
 main div {
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
@@ -105,6 +108,34 @@ main div {
 }
 main img {
     width: 100%;
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
+}
+section{
+    height: 100%;
+    background-image: url(/image/white.jpg);
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
+}
+section div {
+    padding: 20px;
+    font-size: 20px;
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
+}
+section img {
+    width: 200px;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
