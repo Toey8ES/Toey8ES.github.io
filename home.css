@@ -59,7 +59,6 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
-  
     & .welcome-img{
         width: 300px;
         height: 400px;
@@ -114,7 +113,7 @@ main img {
         padding-top: 0 3ram ;
     }
 }
-section{
+.contact{
     display: flex;
     height: 100%;
     background-image: url(/image/white.jpg);
@@ -126,7 +125,7 @@ section{
         padding-top: 0 3ram ;
     }
 }
-section div {
+.contact div {
     padding: 20px;
     font-size: 20px;
     @media screen and (max-width: 450px ) {
@@ -135,8 +134,9 @@ section div {
         padding-top: 0 3ram ;
     }
 }
-section img {
+.contact img {
     width: 100px;
+    height: 100px;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
@@ -144,9 +144,12 @@ section img {
     }
 }
 .contact {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
+    padding-left: 15px;
+    text-align: center;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
@@ -168,7 +171,44 @@ section img {
         margin: 0 1rem;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
+            width: auto;
             height: auto;
             padding-top: 0 3ram ;
         }
+    }
+.internship {
+        justify-content: center;
+        align-items: center; 
+        flex-direction: row;
+        text-align: center;
+        background-color: blanchedalmond;
+        background-position: center;
+        background-size: cover;
+        @media screen and (max-width: 450px ) {
+            flex-direction: column;
+            height: auto;
+            padding-top: 0 3ram ;
+        }
+}
+    /* & .siam{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            margin: 0 20px;
+            @media screen and (max-width: 450px ) {
+                flex-direction: column;
+                height: auto;
+                padding-top: 0 3ram ;
+            }
+    } */
+    & .scg {
+            margin: 0 1rem;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            @media screen and (max-width: 450px ) {
+                flex-direction: column;
+                height: auto;
+                padding-top: 0 3ram ;
+            }
     }
