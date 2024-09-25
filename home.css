@@ -142,7 +142,7 @@ main img {
     height: 100px;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
-        height: auto;
+        height: 20px;
         padding-top: 0 3ram ;
     }
 }
@@ -174,7 +174,7 @@ main img {
         margin: 0 1rem;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
-            height: auto;
+            height: 20px;
             padding-top: 0 3ram ;
         }
     }
