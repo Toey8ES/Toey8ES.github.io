@@ -79,7 +79,6 @@ footer{
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -92,9 +91,9 @@ main{
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 450px ) {
+        display: grid;
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -102,18 +101,18 @@ main div {
     padding: 20px;
     font-size: 20px;
     @media screen and (max-width: 450px ) {
+        display: grid;
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
 main img {
     width: 100%;
     @media screen and (max-width: 450px ) {
+        display: grid;
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -126,7 +125,6 @@ main img {
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -136,7 +134,6 @@ main img {
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -146,7 +143,6 @@ main img {
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -160,7 +156,6 @@ main img {
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
-        width: auto;
         padding-top: 0 3ram ;
     }
 }
@@ -171,7 +166,6 @@ main img {
         margin: 0 20px;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
-            height: auto;
             width: auto;
             padding-top: 0 3ram ;
         }
@@ -180,7 +174,6 @@ main img {
         margin: 0 1rem;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
-            width: auto;
             height: auto;
             padding-top: 0 3ram ;
         }
@@ -195,7 +188,6 @@ main img {
         background-size: cover;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
-            width: auto;
             height: auto;
             padding-top: 0 3ram ;
         }
@@ -208,7 +200,6 @@ main img {
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
                 height: auto;
-                width: auto;
                 padding-top: 0 3ram ;
             }
     }
@@ -219,7 +210,6 @@ main img {
 
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
-                width: auto;
                 height: auto;
                 padding-top: 0 3ram ;
             }
