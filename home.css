@@ -91,7 +91,7 @@ main{
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 450px ) {
-        grid-template-columns: 1fr;
+        display: grid;
         flex-direction: column;
         height: auto;
         padding-top: 0 3ram ;
@@ -101,6 +101,7 @@ main div {
     padding: 20px;
     font-size: 20px;
     @media screen and (max-width: 450px ) {
+        display: grid;
         flex-direction: column;
         height: auto;
         padding-top: 0 3ram ;
@@ -109,6 +110,7 @@ main div {
 main img {
     width: 100%;
     @media screen and (max-width: 450px ) {
+        display: grid;
         flex-direction: column;
         height: auto;
         padding-top: 0 3ram ;
