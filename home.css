@@ -19,7 +19,7 @@ nav{
             width: 100px;
             height: 80px;
             background-position: center;
-             background-size: cover;
+            background-size: cover;
         }
     }
 
@@ -204,6 +204,10 @@ main img {
             }
     }
     & .scg {
+            width: 300px;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
             margin: 0 1rem;
             padding-top: 50px;
             padding-bottom: 50px;
