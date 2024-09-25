@@ -92,6 +92,7 @@ main{
     background-size: cover;
     @media screen and (max-width: 450px ) {
         display: grid;
+        grid-template-columns: 1fr;
         flex-direction: column;
         height: auto;
         padding-top: 0 3ram ;
@@ -210,10 +211,7 @@ main img {
 
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
-                width: 300px;
-                height: 400px;
-                background-position: center;
-                background-size: cover;
+                height: auto;
                 padding-top: 0 3ram ;
             }
     }
