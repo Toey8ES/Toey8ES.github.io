@@ -115,6 +115,7 @@ main img {
     }
 }
 section{
+    display: flex;
     height: 100%;
     background-image: url(/image/white.jpg);
     background-position: center;
@@ -135,10 +136,39 @@ section div {
     }
 }
 section img {
-    width: 200px;
+    width: 100px;
     @media screen and (max-width: 450px ) {
         flex-direction: column;
         height: auto;
         padding-top: 0 3ram ;
     }
 }
+.contact {
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    @media screen and (max-width: 450px ) {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0 3ram ;
+    }
+}
+    & .contact-box{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 0 20px;
+        @media screen and (max-width: 450px ) {
+            flex-direction: column;
+            height: auto;
+            padding-top: 0 3ram ;
+        }
+    }
+    & .link {
+        margin: 0 1rem;
+        @media screen and (max-width: 450px ) {
+            flex-direction: column;
+            height: auto;
+            padding-top: 0 3ram ;
+        }
+    }
