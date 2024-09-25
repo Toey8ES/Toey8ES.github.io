@@ -250,3 +250,38 @@ main img {
                 padding-top: 0 3ram ;
             }
     }
+.portfolio {
+        justify-content: center;
+        align-items: center; 
+        flex-direction: row;
+        text-align: center;
+        background-color: darkolivegreen;
+        background-position: center;
+        background-size: cover;
+        @media screen and (max-width: 450px ) {
+            flex-direction: column;
+            height: auto;
+            padding-top: 0 3ram ;
+        }
+}
+    & .port{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            margin: 0 20px;
+            @media screen and (max-width: 450px ) {
+                flex-direction: column;
+                height: auto;
+                padding-top: 0 3ram ;
+            }
+    }
+    & .pf {
+            margin: 0 1rem;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            @media screen and (max-width: 450px ) {
+                flex-direction: column;
+                height: auto;
+                padding-top: 0 3ram ;
+            }
+    }
