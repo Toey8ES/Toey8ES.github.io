@@ -179,6 +179,14 @@ main img {
             padding-top: 0 3ram ;
         }
     }
+    &.map iframe{
+        @media screen and (max-width: 450px ) {
+            flex-direction: column;
+            height: 300px;
+            width: 300px;
+            padding-top: 0 3ram ;
+        }
+    }
 .internship {
         justify-content: center;
         align-items: center; 
