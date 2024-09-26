@@ -243,6 +243,8 @@ main img {
             flex-direction: column;
             margin: 0 20px;
             @media screen and (max-width: 450px ) {
+                align-items: center; 
+                text-align: center;
                 flex-direction: column;
                 height: auto;
                 padding-top: 0 3ram ;
@@ -253,6 +255,8 @@ main img {
             padding-top: 50px;
             padding-bottom: 50px;
             @media screen and (max-width: 450px ) {
+                align-items: center; 
+                text-align: center;
                 flex-direction: column;
                 height: 30%;
                 width: 30%;
