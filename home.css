@@ -198,6 +198,7 @@ main img {
             justify-content: space-evenly;
             text-align: center;
             margin: 0 20px;
+            flex-direction: column;
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
                 height: auto;
@@ -233,6 +234,7 @@ main img {
             display: flex;
             justify-content: space-evenly;
             text-align: center;
+            flex-direction: column;
             margin: 0 20px;
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
@@ -249,7 +251,16 @@ main img {
                 height: auto;
                 padding-top: 0 3ram ;
             }
-    }
+            &.sbw img{
+                height: 30%;
+                width: 30%;
+            }
+        }
+
+
+    
+    
+
 .portfolio {
         justify-content: center;
         align-items: center; 
