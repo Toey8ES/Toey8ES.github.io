@@ -258,8 +258,8 @@ main img {
                 align-items: center; 
                 text-align: center;
                 flex-direction: column;
-                height: 80%;
-                width: 80%;
+                height: 1000;
+                width: 1000;
                 padding-top: 0 3ram ;
             }
             &.sbw img{
