@@ -89,33 +89,21 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .time  img {
         height: 400px;
         width: 500px;
         border: 3px solid black;
         border-radius: 50px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .timetext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0 2rem;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
+            
         }
     .timedata{
         display: flex;
@@ -124,11 +112,7 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
 
     }
 .temperature {
@@ -155,11 +139,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
 
     }
         .temp  img {
@@ -167,22 +147,14 @@ footer{
         width: 500px;
         border: 3px solid black;
         border-radius: 50px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .temptext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
+            
         }
     .tempdata{
         display: flex;
@@ -191,11 +163,7 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
 .humidity {
     background-image: url(https://c0.wallpaperflare.com/preview/200/15/593/united-states-middleburg-trees-heat.jpg);
@@ -220,11 +188,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
 
     }
         .humi  img {
@@ -232,22 +196,14 @@ footer{
         width: 500px;
         border: 3px solid black;
         border-radius: 50px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .humitext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
+            
         }
     .humidata{
         display: flex;
@@ -256,11 +212,7 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
 .luxsensor {
     background-image: url(https://c0.wallpaperflare.com/preview/200/15/593/united-states-middleburg-trees-heat.jpg);
@@ -285,11 +237,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
 
     }
         .lux  img {
@@ -297,22 +245,14 @@ footer{
         width: 500px;
         border: 3px solid black;
         border-radius: 50px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .luxtext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
+            
         }
     .luxdata{
         display: flex;
@@ -321,14 +261,10 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
 .motion {
-    background-image: url(https://c0.wallpaperflare.com/preview/200/15/593/united-states-middleburg-trees-heat.jpg);
+    background-image: url(/image/the\ boys.jpg);
     height: 800px;
     background-position: center;
     background-size: cover;
@@ -338,7 +274,7 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: Monospace;
+    font-family: Garamond;
     border: 10px solid black; 
     border-radius: 50px
 }
@@ -350,11 +286,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
 
     }
         .mot  img {
@@ -362,22 +294,14 @@ footer{
         width: 500px;
         border: 3px solid black;
         border-radius: 50px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
-        }
+        
     }
         .mottext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
+           
         }
     .motdata{
         display: flex;
@@ -386,11 +310,17 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 100px;
-        @media screen and (max-width: 450px ) {
-            flex-direction: column;
-            height: auto;
-            padding-top: 0 3ram ;
+        
+    }
+    @media screen and (max-width: 450px ) {
+        .api {
+            &.timestamp{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column; 
+            }
         }
     }
-
 
