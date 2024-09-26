@@ -84,7 +84,7 @@ footer{
     .time {
         font-size: 20px;
         display: flex;
-        flex-direction: center;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -92,8 +92,8 @@ footer{
         
     }
         .time  img {
-        height: 200px;
-        width: 300px;
+        height: 300px;
+        width: 400px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -134,7 +134,7 @@ footer{
     .temp {
         font-size: 20px;
         display: flex;
-        flex-direction: center;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -143,8 +143,8 @@ footer{
 
     }
         .temp  img {
-        height: 200px;
-        width: 300px;
+            height: 300px;
+            width: 400px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -183,7 +183,7 @@ footer{
     .humi {
         font-size: 20px;
         display: flex;
-        flex-direction: center;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -192,8 +192,8 @@ footer{
 
     }
         .humi  img {
-        height: 200px;
-        width: 300px;
+            height: 300px;
+            width: 400px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -215,7 +215,7 @@ footer{
         
     }
 .luxsensor {
-    background-image: url(https://c0.wallpaperflare.com/preview/200/15/593/united-states-middleburg-trees-heat.jpg);
+    background-image: url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?cs=srgb&dl=pexels-daniel-reche-718241-1556704.jpg&fm=jpg);
     height: 800px;
     background-position: center;
     background-size: cover;
@@ -232,7 +232,7 @@ footer{
     .lux {
         font-size: 20px;
         display: flex;
-        flex-direction: center;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -241,8 +241,8 @@ footer{
 
     }
         .lux  img {
-        height: 200px;
-        width: 300px;
+            height: 300px;
+            width: 400px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -281,27 +281,49 @@ footer{
     .mot {
         font-size: 20px;
         display: flex;
-        flex-direction: center;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         margin-top: 100px;
+        @media screen and (max-width: 450px ) {
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
         
 
     }
         .mot  img {
-        height: 200px;
-        width: 300px;
+            height: 300px;
+            width: 400px;
         border: 3px solid black;
         border-radius: 50px;
-        
+        @media screen and (max-width: 450px ) {
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .mottext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-           
+            @media screen and (max-width: 450px ) {
+                align-items: center; 
+                text-align: center;
+                flex-direction: column;
+                padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
+            }
         }
     .motdata{
         display: flex;
@@ -309,22 +331,26 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 10px;
-        
-    }
-    /* @media screen and (max-width: 450px ) {
-        .api {
-            & .time img{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                flex-direction: column;
-                height: 100px;
-                width: 100px;
-            }
+        font-size: 10px; 
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
         }
-    } */
+    }
+    
+    
+    
+    
+
+
+
+
+
     .api-post{
         border: 1px solid #D9E1E2;
         margin: 50px 0;
@@ -350,3 +376,6 @@ footer{
     .Type-Name button{
         margin: 10px 0;
     }
+
+
+    
