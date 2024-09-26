@@ -319,5 +319,11 @@ main img {
                 height: 40%;
                 width: 40%;
                 border: 5px solid black;
+                @media screen and (max-width: 450px ) {
+                    flex-direction: column;
+                    height: auto;
+                    width: auto;
+                    padding-top: 0 3ram ;
+                }
             }
     }
