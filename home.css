@@ -259,18 +259,12 @@ main img {
                 text-align: center;
                 flex-direction: column;
                 padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
             }
             &.sbw img{
                 height: 30%;
                 width: 30%;
-                @media screen and (max-width: 450px ) {
-                    align-items: center; 
-                    text-align: center;
-                    flex-direction: column;
-                    height: 100%;
-                    width: 100%;
-                    padding-top: 0 3ram ;
-                }
             }
         }
 
