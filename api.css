@@ -312,9 +312,9 @@ footer{
         font-size: 100px;
         
     }
-    @media screen and (max-width: 450px ) {
+    /* @media screen and (max-width: 450px ) {
         .api {
-            .time{
+            & .time img{
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -324,5 +324,5 @@ footer{
                 width: 100px;
             }
         }
-    }
+    } */
 
