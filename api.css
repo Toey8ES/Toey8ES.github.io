@@ -319,7 +319,9 @@ footer{
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                flex-direction: column; 
+                flex-direction: column;
+                height: 100px;
+                width: 100px;
             }
         }
     }
