@@ -82,7 +82,7 @@ footer{
     
 }
     .time {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: center;
         align-items: center;
@@ -132,7 +132,7 @@ footer{
     
 }
     .temp {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: center;
         align-items: center;
@@ -181,7 +181,7 @@ footer{
     border-radius: 50px
 }
     .humi {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: center;
         align-items: center;
@@ -230,7 +230,7 @@ footer{
     border-radius: 50px
 }
     .lux {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: center;
         align-items: center;
@@ -279,7 +279,7 @@ footer{
     border-radius: 50px
 }
     .mot {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         flex-direction: center;
         align-items: center;
@@ -325,4 +325,28 @@ footer{
             }
         }
     } */
-
+    .api-post{
+        border: 1px solid #D9E1E2;
+        margin: 50px 0;
+        padding: 10px 20px;
+        background-color: #f40823;
+    }
+    .api-post-box-name{
+        text-align: left;  
+    }
+    .box-input-text{
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background: #cccccc;
+    }
+    .api-post-box-id{
+        text-align: left;
+    }
+    
+    .Type-Name button{
+        margin: 10px 0;
+    }
