@@ -314,7 +314,7 @@ footer{
     }
     @media screen and (max-width: 450px ) {
         .api {
-            &.timestamp{
+            .time{
                 display: flex;
                 align-items: center;
                 justify-content: center;
