@@ -92,8 +92,8 @@ footer{
         
     }
         .time  img {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -111,7 +111,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 100px;
+        font-size: 10px;
         
 
     }
@@ -143,8 +143,8 @@ footer{
 
     }
         .temp  img {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -162,7 +162,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 100px;
+        font-size: 10px;
         
     }
 .humidity {
@@ -192,8 +192,8 @@ footer{
 
     }
         .humi  img {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -211,7 +211,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 100px;
+        font-size: 10px;
         
     }
 .luxsensor {
@@ -241,8 +241,8 @@ footer{
 
     }
         .lux  img {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -260,7 +260,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 100px;
+        font-size: 10px;
         
     }
 .motion {
@@ -290,8 +290,8 @@ footer{
 
     }
         .mot  img {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 50px;
         
@@ -309,7 +309,7 @@ footer{
         justify-content: center;
         text-align: center;
         margin: 100px 0;
-        font-size: 100px;
+        font-size: 10px;
         
     }
     /* @media screen and (max-width: 450px ) {
