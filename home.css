@@ -313,12 +313,12 @@ main img {
             &.pf img {
                 height: 40%;
                 width: 40%;
-                border: 5px solid black;
+                border: 2px solid black;
+                border-radius: 10%;
             }
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
                 height: auto;
-                width: auto;
                 padding-top: 0 3ram ;
             }
             
