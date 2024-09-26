@@ -258,13 +258,19 @@ main img {
                 align-items: center; 
                 text-align: center;
                 flex-direction: column;
-                height: 1000;
-                width: 1000;
                 padding-top: 0 3ram ;
             }
             &.sbw img{
                 height: 30%;
                 width: 30%;
+                @media screen and (max-width: 450px ) {
+                    align-items: center; 
+                    text-align: center;
+                    flex-direction: column;
+                    height: 100%;
+                    width: 100%;
+                    padding-top: 0 3ram ;
+                }
             }
         }
 
