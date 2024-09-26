@@ -95,7 +95,6 @@ main{
     background-position: center;
     background-size: cover;
     font-family: Arial;
-
     @media screen and (max-width: 450px ) {
         display: grid;
         grid-template-columns: 1fr;
@@ -195,6 +194,7 @@ main img {
         background-color: blanchedalmond;
         background-position: center;
         background-size: cover;
+        border: 8px solid black;
         @media screen and (max-width: 450px ) {
             flex-direction: column;
             height: auto;
@@ -318,7 +318,6 @@ main img {
             &.pf img {
                 height: 40%;
                 width: 40%;
-                border-radius: 10%; 
-                border: 3px solid black;
+                border: 5px solid black;
             }
     }
