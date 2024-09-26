@@ -59,6 +59,7 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: Courier;
     & .welcome-img{
         width: 300px;
         height: 400px;
