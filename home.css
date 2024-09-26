@@ -310,20 +310,16 @@ main img {
             margin: 0 1rem;
             padding-top: 50px;
             padding-bottom: 5px;
-            @media screen and (max-width: 450px ) {
-                flex-direction: column;
-                height: auto;
-                padding-top: 0 3ram ;
-            }
             &.pf img {
                 height: 40%;
                 width: 40%;
                 border: 5px solid black;
-                @media screen and (max-width: 450px ) {
-                    flex-direction: column;
-                    height: auto;
-                    width: auto;
-                    padding-top: 0 3ram ;
-                }
             }
+            @media screen and (max-width: 450px ) {
+                flex-direction: column;
+                height: auto;
+                width: auto;
+                padding-top: 0 3ram ;
+            }
+            
     }
