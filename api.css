@@ -89,21 +89,45 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .time  img {
         height: 300px;
         width: 400px;
         border: 3px solid black;
         border-radius: 50px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .timetext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0 2rem;
-            
+            @media screen and (max-width: 450px ) {
+                display: flex;
+                align-items: center; 
+                text-align: center;
+                flex-direction: column;
+                padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
+            }    
         }
     .timedata{
         display: flex;
@@ -112,7 +136,15 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 10px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
 
     }
 .temperature {
@@ -126,7 +158,7 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: Fantasy;
+    font-family: Cursive;
     border: 10px solid black; 
     border-radius: 50px
     
@@ -139,7 +171,15 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
 
     }
         .temp  img {
@@ -147,14 +187,30 @@ footer{
             width: 400px;
         border: 3px solid black;
         border-radius: 50px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .temptext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            
+            @media screen and (max-width: 450px ) {
+                display: flex;
+                align-items: center; 
+                text-align: center;
+                flex-direction: column;
+                padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
+            }    
         }
     .tempdata{
         display: flex;
@@ -163,7 +219,15 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 10px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
 .humidity {
     background-image: url(https://c0.wallpaperflare.com/preview/200/15/593/united-states-middleburg-trees-heat.jpg);
@@ -188,7 +252,15 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
 
     }
         .humi  img {
@@ -196,14 +268,30 @@ footer{
             width: 400px;
         border: 3px solid black;
         border-radius: 50px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .humitext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            
+            @media screen and (max-width: 450px ) {
+                display: flex;
+                align-items: center; 
+                text-align: center;
+                flex-direction: column;
+                padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
+            }    
         }
     .humidata{
         display: flex;
@@ -212,7 +300,15 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 10px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
 .luxsensor {
     background-image: url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?cs=srgb&dl=pexels-daniel-reche-718241-1556704.jpg&fm=jpg);
@@ -237,7 +333,15 @@ footer{
         justify-content: center;
         text-align: center;
         margin-top: 100px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
 
     }
         .lux  img {
@@ -245,14 +349,30 @@ footer{
             width: 400px;
         border: 3px solid black;
         border-radius: 50px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
         .luxtext {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0rem 2rem;
-            
+            @media screen and (max-width: 450px ) {
+                display: flex;
+                align-items: center; 
+                text-align: center;
+                flex-direction: column;
+                padding-top: 0 3ram ;
+                height: auto;
+                width: auto;
+            }    
         }
     .luxdata{
         display: flex;
@@ -261,7 +381,15 @@ footer{
         text-align: center;
         margin: 100px 0;
         font-size: 10px;
-        
+        @media screen and (max-width: 450px ) {
+            display: flex;
+            align-items: center; 
+            text-align: center;
+            flex-direction: column;
+            padding-top: 0 3ram ;
+            height: auto;
+            width: auto;
+        }
     }
 .motion {
     background-image: url(/image/the\ boys.jpg);
