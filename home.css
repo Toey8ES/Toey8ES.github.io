@@ -229,6 +229,8 @@ main img {
         background-position: center;
         background-size: cover;
         @media screen and (max-width: 450px ) {
+            align-items: center; 
+            text-align: center;
             flex-direction: column;
             height: auto;
             padding-top: 0 3ram ;
