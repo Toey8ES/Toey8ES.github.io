@@ -248,7 +248,8 @@ main img {
             padding-bottom: 50px;
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
-                height: auto;
+                height: 30%;
+                width: 30%;
                 padding-top: 0 3ram ;
             }
             &.sbw img{
