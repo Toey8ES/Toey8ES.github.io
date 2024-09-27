@@ -313,8 +313,8 @@ main img {
             &.pf img {
                 height: 50%;
                 width: 50%;
-                border: 5px solid black;
-                border-radius: 80px;
+                border: 4px solid black;
+                border-radius:25px;
             }
             @media screen and (max-width: 450px ) {
                 flex-direction: column;
