@@ -1,11 +1,11 @@
 async function submitData() {
   // รับข้อมูลจากฟอร์ม
   const studentName = document.getElementById("studentName").value;
-  const studentId = document.getElementById("studentId").value; 
+  const studentID = document.getElementById("studentID").value; 
 
   // สร้างข้อมูลในรูปแบบ JSON
   const data = {
-      id: studentId,
+      id: studentID,
       name: studentName
   };
 
