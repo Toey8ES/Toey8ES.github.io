@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="api.css" />
   </head>
   <body>
+    <script src="api-ToeyES.js"></script>
     <nav>
       <div class="logo">
         <a href="index.html">
@@ -32,9 +33,24 @@
                 </div>
             </div>
             <div class="timedata">
-                <h1 user="timestamp"><mark style="background-color: #E0FFFF	 ; border: 5px solid red; border-radius: 50px; color:#660000"></mark></h1>
+                <table class="table-sensor" >
+                    <tr>
+                      <th  class="table-th">Sensor</th>
+                      <th  class="table-th">Value</th>
+                      <th  class="table-th">Unit</th>
+                    </tr>
+                    <tr>
+                        <td  class="table-th">timestamp</td>
+                        <td  class="td-sensor"><div id="timestamp"></div></td>
+                        <td  class="table-th">ms</td>
+                    </tr>
+                </table>  
             </div>
         </div>
+    </div>
+
+
+
         <div class="temperature">
             <div class="temp">
                 <img src="https://i.gifer.com/Qbgr.gif">
@@ -43,7 +59,18 @@
                 </div>
             </div>
             <div class="tempdata">
-                <h1 id="temperature"><mark style="background-color: #E0FFFF	 ; border: 5px solid #99FFFF; border-radius: 50px; color:#0066FF">°C</mark></h1>
+                <table class="table-sensor" >
+                    <tr>
+                      <th  class="table-th">Sensor</th>
+                      <th  class="table-th">Value</th>
+                      <th  class="table-th">Unit</th>
+                    </tr>
+                    <tr>
+                        <td  class="table-th">temperature</td>
+                        <td  class="td-sensor"><div id="temperature"></div></td>
+                        <td  class="table-th">° C</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="humidity">
@@ -54,7 +81,18 @@
                 </div>
             </div>
             <div class="humidata">
-                <h1 id="humidity"><mark style="background-color: #99FFCC; border: 5px solid #FFFF00; border-radius: 50px; color:#339900">%RH</mark></h1>
+                <table class="table-sensor" >
+                    <tr>
+                      <th  class="table-th">Sensor</th>
+                      <th  class="table-th">Value</th>
+                      <th  class="table-th">Unit</th>
+                    </tr>
+                    <tr>
+                        <td  class="table-th">humidity</td>
+                        <td  class="td-sensor"><div id="humidity"></div></td>
+                        <td  class="table-th">%RH</td>
+                    </tr>
+                </table>  
             </div>
         </div>
         <div class="luxsensor">
@@ -65,7 +103,18 @@
                 </div>
             </div>
             <div class="luxdata">
-                <h1 id="luxsensor"><mark style="background-color: #996600; border: 5px solid #FFFF00; border-radius: 50px; color:#FFD700">lux</mark></h1>
+                <table class="table-sensor" >
+                    <tr>
+                      <th  class="table-th">Sensor</th>
+                      <th  class="table-th">Value</th>
+                      <th  class="table-th">Unit</th>
+                    </tr>
+                    <tr>
+                        <td  class="table-th">luxsensor</td>
+                        <td  class="td-sensor"><div id="luxsensor"></div></td>
+                        <td  class="table-th">lux</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="motion">
@@ -76,12 +125,23 @@
                 </div>
             </div>
             <div class="motdata">
-                <h1 id="motion"><mark style="background-color: #000000; border: 5px solid #DCDCDC; border-radius: 50px; color:#660066"></mark></h1>
+                <table class="table-sensor" >
+                    <tr>
+                      <th  class="table-th">Sensor</th>
+                      <th  class="table-th">Value</th>
+                      <th  class="table-th">Unit</th>
+                    </tr>
+                    <tr>
+                        <td  class="table-th">motion</td>
+                        <td  class="td-sensor"><div id="motion"></div></td>
+                        <td  class="table-th">lux</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
 
-    
+
     <div class="api-post">
         <form onsubmit="event.preventDefault(); submitData();">
             <div class="api-post-box-name">

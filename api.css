@@ -349,5 +349,8 @@ footer{
         margin: 10px 0;
     }
 
-
-    
+    & .table, th, td {
+        border: 2px solid #99FF33;
+        background-color: #FF6633	;
+        font-size: 30px;
+    }
